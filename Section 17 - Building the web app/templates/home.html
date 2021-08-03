@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='app.css') }}">
+  </head>
+  <h1>Book your OLA electric scooter.</h1>
+  <p>Already <strong>{{ data }}</strong> users have registered. Register now!</p>
+
+  <form method="POST", action = "/">
+    <input type="text" name="email" class="form" placeholder="enter your email id">
+    <button>Join Now</button>
+  </form>
+  <p class="error">{{ error }}</p>
+</html>

@@ -1,0 +1,3 @@
+SHOW TRIGGERS;
+
+-- DROP TRIGGER trigger_name;

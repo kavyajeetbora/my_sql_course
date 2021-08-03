@@ -1,0 +1,1 @@
+DROP DATABASE join_us;
